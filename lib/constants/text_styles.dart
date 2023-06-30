@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class WebSiteTextStyles {
-  static TextStyle headerTextStyle() {
+  static TextStyle headerTextStyle({Color color = Colors.white}) {
     return GoogleFonts.signikaNegative(
         fontSize: 18, fontWeight: FontWeight.w600, color: Colors.white);
   }
@@ -37,6 +37,8 @@ class WebSiteTextStyles {
     );
   }
 
-
-
+  static TextStyle comfortaaStyle() {
+    return GoogleFonts.comfortaa(
+        fontSize: 18, fontWeight: FontWeight.w800, color: Colors.grey);
+  }
 }
